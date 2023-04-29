@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        .left{
+            margin-top: 40px;
+            margin-left: 10%;
+            float: left;
+        }
+        .right{
+            margin-top: 40px;
+            margin-right: 15%;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+    <form method="post">
+        <div class="message" style="width: 400px; height: 400px;">
+            <div class="left">
+                <label>Message?</label>
+            </div>
+            <div class="right">
+                <input type="text" value="Happy Birthday">
+            </div>
+
+            <div class="left">
+                <label>Email address?</label>
+            </div>
+            <div class="right">
+                <input type="email" pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*" placeholder="name@domain.com">
+            </div>
+
+            <div class="left">
+                <label>Date to send?</label>
+            </div>
+            <div class="right">
+                <input type="date" placeholder="mm/dd/yyyy">
+            </div>
+
+            <div class="left">
+                <label>Message color?</label>
+            </div>
+            <div class="right">
+                <input type="color">
+            </div>
+
+            <div class="left" style="margin-top: 55px;">
+                <label>Number of blinks?</label>
+            </div>
+            <div class="right">
+                <input type="number">
+            </div>
+
+            <div class="left">
+                <label>Music volume?</label>
+            </div>
+            <div class="right">
+                <input type="range">
+            </div>
+
+            <div class="left">
+                <button type="submit">Send Birthday Message</button>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
